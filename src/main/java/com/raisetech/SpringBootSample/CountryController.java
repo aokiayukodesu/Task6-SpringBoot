@@ -9,11 +9,8 @@ public class CountryController {
     public String jp(){
         return "こんにちは";
     }
-
     @GetMapping("/Greece")
     public String gr(){
         return "ヤーサス！";
     }
-
-
 }
