@@ -9,8 +9,6 @@ import java.time.LocalDateTime;
 public class CurrentTimeController {
     @GetMapping("/currentTime")
     public LocalDateTime currentTime (){
-        return  currentTime(LocalDateTime.now());
-
+        return  LocalDateTime.now();
     }
-
 }
