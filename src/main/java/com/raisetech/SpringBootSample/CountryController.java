@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CountryController {
-    @GetMapping("/Japan")
+    @GetMapping("/japan")
     public String jp(){
         return "こんにちは";
     }
-    @GetMapping("/Greece")
+    @GetMapping("/greece")
     public String gr(){
         return "ヤーサス！";
     }
