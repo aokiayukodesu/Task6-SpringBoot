@@ -8,8 +8,8 @@ import java.time.LocalDateTime;
 @RestController
 public class CurrentTimeController {
     @GetMapping("/currentTime")
-    public CurrentTime currentTime (){
-        return new CurrentTime(LocalDateTime.now());
+    public LocalDateTime currentTime (){
+        return  currentTime(LocalDateTime.now());
 
     }
 
